@@ -1,16 +1,27 @@
-### Hi there 👋
+``` php
+<?php
 
-<!--
-**benjbmc/benjbmc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+define("ME", "Benjamin Reisz");
 
-Here are some ideas to get you started:
+class MyLife {
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  const MUSIC = TRUE;
+
+  public function because() {
+    echo "Sans la musique, la vie serait une erreur, une besogne éreintante, un exil.<sup>*</sup>";
+  }
+}
+
+$thatslife = new MyLife();
+if ($thatslife::MUSIC) {
+  $thatslife->because(); // la question elle est vite répondue :-)
+}
+
+
+```
+
+```
+*Le Crépuscule des idoles, Friedrich Nietzsche.
+```
+
+:notes:  [mon profil SoundCloud](https://soundcloud.com/benjbmc)  :notes:
